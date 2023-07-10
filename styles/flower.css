@@ -27,7 +27,7 @@ body {
     font-size: 80px;
     font-weight: 800;
     max-width: 708px;
-    
+
 
 }
 
@@ -46,4 +46,60 @@ body {
     padding: 20px 43px;
     border: none;
     margin-top: 32px;
+}
+
+.feat-container {
+    display: flex;
+    align-content: space-between;
+    gap: 24px;
+    padding: 48px 240px 0 240px;
+}
+
+.flower-img1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0 76px;
+}
+
+.flower-img2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 78px 51px 76px;
+}
+
+.flower-img3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 78px 0 76px;
+}
+
+.featured {
+    text-align: center;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 178px;
+}
+
+.section-description {
+
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 24px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flower-des {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    padding-top: 24px;
 }
