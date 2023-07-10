@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    /* display: flex; */
+    background: rgba(229, 84, 115, 0.10);
+
+
+}
+
+.banner {
+    background-image: url(../images/pngwing\ 10.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 197px 0 147px 240px;
+
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    max-width: 708px;
+    
+
+}
+
+.banner-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 600px;
+    margin-top: 32px;
+}
+
+.primary-btn {
+    color: white;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    margin-top: 32px;
+}
