@@ -207,9 +207,10 @@ body {
 
 .promo-detail {
     text-align: center;
-    margin-top: 128px;
+    margin: 128px 240px 128px 240px;
     background-image: url(../images/Rectangle\ 9.png);
     padding: 122px 287px;
+    background-repeat: no-repeat;
 }
 
 .promo-mail {
@@ -219,8 +220,46 @@ body {
     height: 64px;
     /* flex-shrink: 0; */
     /* padding-top:22x ; */
-    padding-left: 22px ;
+    padding-left: 22px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-weight: 400;
+}
+
+.footer {
+    background: #111010;
+    text-align: center;
+    padding: 128px 648px;
+}
+
+.foot-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+footer div h3 span {
+    color: white;
+}
+
+.foot-des {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 32px;
+
+}
+
+.rights {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    
 }
